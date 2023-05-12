@@ -1,3 +1,4 @@
+/* 백그라운드 */
 .bg{
     box-sizing: border-box;
 
@@ -12,26 +13,28 @@
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
+/* 와플 문구 큰거 */
 .w_head{
     position: absolute;
     width: 399px;
     height: 76px;
     left: -5px;
     top: 140px;
-
+    
     font-family: 'Walter Turncoat';
     font-style: normal;
     font-weight: 400;
     font-size: 88px;
     line-height: 22px;
     /* or 25% */
-
+    
     text-align: center;
     letter-spacing: -0.408px;
-
-    color: #000000;
+    
+    color: #000000;    
 }
 
+/* 와플 이미지 */
 .w_img {
     position: absolute;
     width: 290px;
@@ -42,7 +45,8 @@
     background: url(pngimg.png);
 }
 
-.witr {
+/* 밥믈리에 소개 */
+.w_itr {
     position: absolute;
     width: 224px;
     height: 154px;
@@ -60,4 +64,15 @@
     letter-spacing: -2px;
     
     color: #171513;
+}
+
+/* 밥믈리에 로고 */
+.w_log {
+    position: absolute;
+    width: 169.57px;
+    height: 100px;
+    left: 104px;
+    top: 702px;
+    
+    background: url(제목_없는_아트워크 2.png);
 }
