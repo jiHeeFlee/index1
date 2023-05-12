@@ -19,7 +19,9 @@
     width: 399px;
     height: 76px;
     left: -5px;
-    top: 140px;
+    top: 60px;
+    /* 지희 top 픽셀 수정함 */
+    /* top: 140px; */
     
     font-family: 'Walter Turncoat';
     font-style: normal;
@@ -31,8 +33,9 @@
     text-align: center;
     letter-spacing: -0.408px;
     
-    color: #000000;    
+    color: #000000;
 }
+
 
 /* 와플 이미지 */
 .w_img {
@@ -41,7 +44,7 @@
     height: 194px;
     left: 44px;
     top: 214px;
-    
+
     background: url(pngimg.png);
 }
 
@@ -51,10 +54,12 @@
     width: 224px;
     height: 154px;
     left: calc(50% - 224px/2 - 2px);
-    top: calc(50% - 154px/2 + 111px);
+    top: calc(47% - 154px/2 + 111px);
+    /* 지희 top 수정함 */
+    /* top: calc(50% - 154px/2 + 111px); */
     
     font-family: 'Hahmlet';
-    font-style: normal;
+    font-style:normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 50px;
@@ -63,16 +68,27 @@
     text-align: center;
     letter-spacing: -2px;
     
-    color: #171513;
+    color: #171513;   
 }
 
 /* 밥믈리에 로고 */
-.w_log {
+.w_logo {
     position: absolute;
     width: 169.57px;
     height: 100px;
     left: 104px;
     top: 702px;
     
-    background: url(제목_없는_아트워크 2.png);
+    /* background: url(제목_없는_아트워크 2.png); */
+}
+
+
+.w_line {
+    position: absolute;
+    width: 312.24px;
+    height: 15.76px;
+    left: 44px;
+    top: 419px;
+    
+    /* border: 1.25px solid #000000; */
 }
